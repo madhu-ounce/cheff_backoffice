@@ -1,0 +1,31 @@
+img.menuLogo {
+    width: 80px;
+    float: left;
+  }
+  .menuList li a:hover {
+    background: rgba(145, 158, 171, 0.08);
+  }
+  .menuList li a {
+    width: 100%;
+    float: left;
+    padding: 12px; 
+    margin-top: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--clr_txt_1);
+    transition: all 0.5s;
+    font-size: 14px;
+  } 
+  .menuList li { 
+    list-style: none;
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .menuList {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
